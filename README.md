@@ -12,3 +12,11 @@
 ## Screenshots:
 ![alt_text](./assets/images/screenshot1.png)
 ![alt_text](./assets/images/screenshot2.png)
+
+## Links:
+https://github.com/evanjamesc/Homework_1
+<br>
+https://evanjamesc.github.io/Homework_1/
+
+## Notes:
+-I'm still a bit unsure about what should be in a README file, I hope this is correct.
