@@ -1,17 +1,13 @@
-/*CSS COMMENT */
-/*Combine what you can*/
-/* command + / creates a comment */
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets background color for body of website */
 body {
     background-color: #d9dcd6;
 }
-
+/*  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changed this div to nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -72,13 +68,22 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* I should be able to combine .content and .content_element, since every element of .content_element falls under the scope of .content, but when I combine them the layout is wrong. Not sure why. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+.content_element {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    float: left;
+}
+/* .benefits combined with .benefit-lead, brand, and cost */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,110 +96,29 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-/*.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}*/
-
+/* .benefits h3 combined with .benefit-lead, brand, cost h3 */
 .benefits h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
 }
-
-/*.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}*/
-
+/* .benefits img combined with .benefit-lead, brand, cost img */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* .content_element combines .search-engine-optimization, .online-reputation-management, and .social-media-marketing */
 
-/*.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
-.content_element {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    float: left;
-}
-
-/*.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
+/* .content img combines  .search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img */
 .content img {
     max-height: 200px;
 }
-
-/*.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}*/
-
+/* .content img combines  .search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2 */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
 
 footer {
     padding: 30px;
